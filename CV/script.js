@@ -1,0 +1,1 @@
+window.slide = new SlideNav();
