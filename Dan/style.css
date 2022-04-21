@@ -1,0 +1,607 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.35px;
+    }
+    
+    .navbar {
+        background-color: #F2F3F4;
+        color: #00112C;
+        padding: 2rem 4rem;
+    }
+    
+    .navbar .navbar-brand {
+        background-image: url(./img/Parking@2x-6132cadbd077cde03e6cf9371d29839fd293a4d354d769b2da3b1e2c2cbd0968.png);
+        width: 16.125rem;
+        height: 3rem;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .navbar .head {
+        font-size: 1rem;
+        margin-bottom: 0;
+        color: #000;
+        list-style-type: none;
+    }
+    
+    .navbar ul li img {
+        max-height: 1.600rem;
+    }
+    
+    .navbar ul li p {
+        letter-spacing: 0.35px;
+        margin: 0;
+        font-weight: 300;
+    }
+    
+    .navbar ul li p strong {
+        font-weight: 600;
+    }
+    
+    .bg-gradient-coral {
+        background: linear-gradient(0.25turn, #FC636B, #FF6D92);
+    }
+    
+    section {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 5.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .parking-title {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+        letter-spacing: 1px;
+        line-height: 4.5rem;
+    }
+    
+    .text-bold {
+        font-weight: 700;
+        padding-top: 0.25rem;
+    }
+    
+    .avatar {
+        margin-top: 2.5rem;
+    }
+    
+    .avatar .avatar-jumbo .squircle {
+        border-radius: 1rem;
+    }
+    
+    .avatar-default {
+        height: 4.0625rem;
+        width: 4.0625rem;
+        line-height: 4.0625rem;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+    
+    .avatar .avatar-jumbo {
+        text-align: center;
+        font-weight: 300;
+        color: #fff;
+        border: 1px solid #596f62;
+        border-radius: 1.5rem;
+        padding: 12px;
+    }
+    
+    .bg-8 {
+        background-color: #596f62;
+    }
+    
+    .description {
+        color: #fff;
+        margin-top: 2.8rem;
+    }
+    
+    .mystery-header {
+        font-weight: 500;
+    }
+    
+    .standart-offerbox {
+        position: absolute;
+        top: 0px;
+        right: 2.5rem;
+    }
+    
+    .offerbox {
+        box-shadow: 0px 0.125rem 0.25rem rgb(0 0 0 / 8%), 0px 0.25rem 1.5rem rgb(0 0 0 / 8%);
+        position: relative;
+        background: #ffffff;
+        padding: 1.5rem 0;
+        border-radius: 0.5rem;
+    }
+    
+    h4 {
+        font-weight: 700;
+    }
+    
+    .accordion p {
+        font-weight: 400;
+        color: #143860;
+    }
+    
+    .purchasing-option .active {
+        background-color: #E8F7FB;
+    }
+    
+    .purchasing-option {
+        padding: 0 1.5rem;
+    }
+    
+    .purchasing-option:first-of-type .border-content {
+        border-top: 1px solid #E2E5EA;
+    }
+    
+    .purchasing-option .border-content {
+        border-bottom: 1px solid #E2E5EA;
+        padding: 1.5rem 0;
+    }
+    
+    .purchasing-option .radio {
+        font-size: 1.5rem;
+        color: #00112C;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .purchasing-option .radio .radio-input {
+        margin-right: 0.5rem;
+        display: flex;
+    }
+    
+    .purchasing-option .radio .radio-input input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .purchasing-option .radio .radio-input input:checked+.radio-control {
+        background: radial-gradient(at 49% 49%, #179DBA 50%, rgba(255, 0, 0, 0) 55%);
+        border: 0.1em solid #179DBA;
+    }
+    
+    .purchasing-option .radio .radio-control {
+        display: block;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        border: 0.1em solid currentColor;
+    }
+    
+    .purchasing-option .radio .radio-label {
+        line-height: 1;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 1.5rem;
+    }
+    
+    .border-content .radio-label h5 {
+        margin: 0;
+    }
+    
+    h5 {
+        font-size: 1.125rem;
+        letter-spacing: 0.5px;
+        line-height: 1.5rem;
+    }
+    
+    .purchasing-option .price {
+        text-align: right;
+        justify-self: flex-end;
+        line-height: 1.5rem;
+    }
+    
+    .purchasing-option .price h5 {
+        color: #37C597;
+    }
+    
+    .purchasing-option .price.has_subscript {
+        position: relative;
+        top: 0.3rem;
+        margin-bottom: -0.7rem;
+    }
+    
+    .purchasing-option .price {
+        text-align: right;
+        justify-self: flex-end;
+        line-height: 1.5rem;
+    }
+    
+    .purchasing-option .price .subscript {
+        font-size: 0.75rem;
+        color: #8795AA;
+        margin-top: -0.125rem;
+    }
+    
+    .offer-box p,
+    .offer-box a {
+        color: #143860;
+        font-weight: 400;
+    }
+    
+    p {
+        letter-spacing: 0.35px;
+    }
+    
+    .purchasing-option .calculation {
+        background: white;
+        display: flex;
+        padding: 0.5rem;
+        border: 1px solid #8795AA;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .purchasing-option .calculation .payment {
+        width: 50%;
+        border-right: 1px solid #8795AA;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0.35px;
+    }
+    
+    .purchasing-option .calculation .caption {
+        color: #8795AA;
+    }
+    
+    .purchasing-option .calculation .months {
+        padding-left: 0.5rem;
+    }
+    
+    .purchasing-option .calculate .controls {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .purchasing-option .calculate .controls .btn-sm {
+        padding: 0.375rem;
+    }
+    
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+    
+    .offer-box .next-button {
+        padding: 1.5rem;
+    }
+    
+    .accordion .next-button a {
+        width: 100%;
+        font-weight: 700;
+    }
+    
+    .btn-success {
+        background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+        border-color: #38E8B0;
+    }
+    
+    .accordion .next-button a {
+        color: #143860;
+    }
+    
+    .accordion .checkmarks li {
+        list-style-type: none;
+    }
+    
+    .accordion .checkmarks .free {
+        color: #37C597;
+        font-weight: 500;
+    }
+    
+    .accordion .background-image {
+        background-image: url(./img/payment_logos@2x-d395d05b428370de193e52603c0b8259e577d4c6b2f8889d90699b90044692ec.png);
+        padding-top: 11.7647058824%;
+        max-width: 328px;
+        margin: 0 24px;
+        height: 0;
+        position: relative;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .templates .benfits .benfit {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .templates .benfits .container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .templates .benfits .benfit .benfits-project {
+        background-image: url(./img/benefits-protection-523634d05d9535c060cf03d228ff4df6bc4e3a82547bb5320daf91df16d6352f.svg);
+        max-width: 14rem;
+        width: 100%;
+        height: 88px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .templates .benfits .benfit .benfits-transfers {
+        background-image: url(./img/benefits-transfers-374cef9ae50af8a199e7054cfe5092643d1c7659965fb9480022e0487d467606.svg);
+        max-width: 14rem;
+        width: 100%;
+        height: 88px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .templates .benfits .benfit .benfits-payments {
+        background-image: url(./img/benefits-payments-fcd4b0fd72963bb6eb6404128536393529f0f4f7b5be664067d679777011b851.svg);
+        max-width: 14rem;
+        width: 100%;
+        height: 88px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .templates .benfits .benfit .title {
+        white-space: normal;
+        margin-top: 1.75rem;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+    
+    .benfits .row hr {
+        border: 0;
+        border-bottom: 1px solid #E2E5EA;
+        margin: 2.75rem 0rem;
+    }
+    
+    h4 {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+        line-height: 2rem;
+    }
+    
+    .button-secondary {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.35px;
+        line-height: 1.5rem;
+    }
+    
+    a {
+        color: #1AAFD0;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    a:hover {
+        color: #12768c;
+        text-decoration: underline;
+    }
+    
+    .traffic-stats {
+        padding-top: 0;
+    }
+    
+    .traffic-stats h4 {
+        margin-bottom: 20px;
+    }
+    
+    .traffic-stats .graphic {
+        background-image: url(./img/Ekran\ Resmi\ 2022-04-13\ 23.14.06.png);
+        height: 268px;
+        width: 756px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parking-footer {
+        padding-bottom: 20px;
+    }
+    
+    .parking-footer .container-xl {
+        margin: 0 80px;
+    }
+    
+    footer {
+        padding-top: 3rem;
+        background: #00112C;
+        color: #ffffff;
+    }
+    
+    footer .caption {
+        word-break: break-word;
+    }
+    
+    .caption {
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        line-height: 1rem;
+    }
+    
+    footer a {
+        color: #ffffff;
+    }
+    
+    footer .dropup {
+        position: relative;
+        margin-top: -0.375rem;
+    }
+    
+    footer .dropup button {
+        padding: 0;
+    }
+    
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+    
+    button:not(:disabled) {
+        cursor: pointer;
+    }
+    
+    footer .dropup button {
+        padding: 0;
+    }
+    
+    footer .btn {
+        color: #ffffff;
+    }
+    
+    .row .btn:focus {
+        box-shadow: none;
+    }
+    
+    .row .btn:hover {
+        color: #fff;
+    }
+    
+    .row .dropdown-menu {
+        min-width: 15.5rem;
+    }
+    
+    .dropdown-menu .dropdown-item {
+        color: #00112C;
+        padding: 0.50rem 1.25rem;
+    }
+    
+    .buying {
+        margin: 0 120px;
+    }
+    
+    .little-footer .background-image {
+        background-image: url(./img/payment_logos@2x-d395d05b428370de193e52603c0b8259e577d4c6b2f8889d90699b90044692ec.png);
+        padding-top: 11.7647058824%;
+        max-width: 250px;
+        width: 450px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .little-list {
+        list-style-type: none;
+    }
+    
+    .little-list .little-list-item {
+        padding: 10px;
+    }
+    
+    .buy-button .btn-success {
+        color: #00112C;
+    }
+    
+    .btn-success:hover {
+        background: linear-gradient(0.25turn, #37C597, #38E8B0);
+    }
+    
+    @media (max-width:800.99px) {
+        .navbar {
+            padding: 1.75rem 1.5rem;
+        }
+        .navbar .navbar-brand {
+            background-image: url(./img/Parking@2x-6132cadbd077cde03e6cf9371d29839fd293a4d354d769b2da3b1e2c2cbd0968.png);
+            width: 12rem;
+            height: 2.25rem;
+        }
+        .navbar .head {
+            list-style-type: none;
+        }
+        .navbar .head li p {
+            font-size: 10px;
+        }
+        .navbar .head li img {
+            width: 5rem;
+            height: 2.25rem;
+            margin-left: 10px;
+        }
+        section {
+            padding-left: 1rem;
+            padding-right: 2.5rem;
+            padding-top: 2.5rem;
+            padding-bottom: 0;
+        }
+        .main {
+            padding-bottom: 250px;
+        }
+        .main .parking-title {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        .main .parking-title h1 {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+        .main .standart-offerbox {
+            top: 2rem;
+            right: -1.5rem;
+            left: 0;
+        }
+        .little-ds {
+            margin-top: 410px;
+        }
+        .little-ds .description {
+            color: #000;
+        }
+        .little-ds hr {
+            margin-top: 30px;
+        }
+        .templates .benfits .benfit {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+        }
+        .templates .benfits .benfit .background-image {
+            margin: 0;
+            margin-right: 1rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background-size: contain;
+        }
+        .templates .benfits .benfit .title {
+            margin-top: 0;
+        }
+        .traffic-stats .graphic {
+            width: 25rem;
+            height: 25rem;
+            background-size: contain;
+        }
+        .little-footer .buying {
+            margin: 0 30px;
+        }
+        .little-footer .buying .buy-button a {
+            padding-right: 150px!important;
+            padding-left: 150px!important;
+            border-radius: 10px;
+        }
+    }
