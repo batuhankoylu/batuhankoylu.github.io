@@ -1,0 +1,222 @@
+.converter{
+  width: 400px;
+  height: 300px;
+  margin-top: 120px;
+  margin-right: 50px;
+  background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%);
+}
+span{
+  display: block;
+}
+img.Group-3 {
+  width: 45px;
+  height: 31px;
+  margin: 30px 13px 56px 0;
+  object-fit: contain;
+}
+img.Group-5 {
+  width: 43px;
+  height: 29px;
+  margin: 31px 14px 38px 1px;
+  object-fit: contain;
+}
+img.Group-7 {
+  width: 43px;
+  margin: 42.8px 0px 38.2px 1px;
+  height: 30px;
+  object-fit: contain;
+}
+.markets_name {
+  width: 86px;
+  height: 24px;
+  margin: 1px 50px 24px 13px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #2b3b48;
+  white-space: nowrap;
+}
+.markets_tag {
+  width: 31px;
+  height: 20px;
+  margin: 42px 104px 0 14px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+.ALI {
+  width: 26px;
+  height: 14px;
+  margin: 42px 41px 6px 82px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #4f6477;
+}
+.price {
+  width: 50px;
+  height: 24px;
+  margin: 6px 41px 25px 58px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b3b48;
+}
+
+.SATI {
+  width: 33px;
+  height: 14px;
+  margin: 42px 76px 6px 75px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #4f6477;
+}
+.buttons{
+  width: 1400px;
+}
+
+.btn{
+  border-radius: 0px!important;
+  white-space: nowrap;
+}
+button.second-button{
+  padding: 15px 177px 15px 176px;
+  background-color: #fff;
+  color: #2b3b48;
+  border: 2px solid #4f6477;
+
+}
+button.second-button:not([disabled]):not(.disabled).active,
+button.second-button:not([disabled]):not(.disabled):active,
+button.second-button:not([disabled]):not(.disabled).hover,
+button.second-button:not([disabled]):not(.disabled):hover{
+    color:#2b3b48;
+    background-color: #fff ;
+    border: 2px solid #4f6477;
+}
+button.first-button{
+  margin-left: 40px;
+  padding: 15px 185px 15px 185px;
+  background-color: #2b3b48;
+  color: #fff;
+  border: 2px solid #2b3b48;
+  font-family: Roboto;
+
+}
+button.first-button:not([disabled]):not(.disabled).active,
+button.first-button:not([disabled]):not(.disabled):active,
+button.fisrt-button:not([disabled]):not(.disabled).hover,
+button.first-button:not([disabled]):not(.disabled):hover{
+    color:#fff;
+    background-color: #2b3b48;
+    border: 2px solid #2b3b48;
+}
+
+.Dviz-evir {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.input{
+  border: none;
+  border-right: 1px solid black;
+}
+.form-select{
+  border: none!important;
+  border-radius: 0px!important;
+}
+img.ButtonsChange {
+  width: 48px;
+  height: 48px;
+  margin: 40px 175px 40px 175px;
+  object-fit: contain;
+}
+.sonuc{
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  padding: 15px 16px 35px 15px;
+  background-color: #fff;
+}
+
+.TL {
+  width: 20px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b3b48;
+}
+@media only screen and (max-device-width: 700px) {
+  .container{
+    padding: 30px 0 30px 0;
+  }
+  .country{
+    margin: 25px 0 25px 0;
+  }
+  .converter{
+    min-width: 470px;
+    height: 325px;
+    margin-top: 0px;
+  }
+  img.ButtonsChange{
+    margin-left: 210px;
+  }
+  .sonuc{
+    min-width: 375px;
+    height: 50px;
+  }
+  .input{
+    min-width: 250px;
+    height: 50px;
+  }
+  .TL{
+    margin: 0 0 0px 100px;
+  }
+  .form-select{
+    min-width: 100px!important;
+  }
+  button.btn{
+    width: 470px;
+    margin-top: 50px!important;
+  }
+  button.first-button{
+    margin-left: 0px;
+  }
+}

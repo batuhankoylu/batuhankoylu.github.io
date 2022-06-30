@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Çevirici</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="d-flex flex-wrap mx-5">
+            <div class="container order-1">
+                <div class="row">
+                    <h4 class="Piyasalar mt-5">
+                        Piyasalar
+                    </h4>
+                </div>
+                <div class="row">
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-7.png" srcset="img/group-7@2x.png 2x,
+             img/group-7@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">USD</span>
+                            <span class="markets_name">Amerikan Doları</span>
+                        </div>
+                        <div id="USDTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="USDTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-1.png" srcset="img/group-1@2x.png 2x,
+             img/group-1@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">EUR</span>
+                            <span class="markets_name">Avrupa Para Birimi</span>
+                        </div>
+                        <div id="EURTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="EURTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-5.png" srcset="img/group-5@2x.png 2x,
+                 img/group-5@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">JPY</span>
+                            <span class="markets_name">Japon Yeni</span>
+                        </div>
+                        <div id="JPYTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="JPYTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-2.png" srcset="img/group-2@2x.png 2x,
+                 img/group-2@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">GBP</span>
+                            <span class="markets_name">İngiliz Sterlini</span>
+                        </div>
+                        <div id="GBPTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="GBPTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-3.png" srcset="img/group-3@2x.png 2x,
+                 img/group-3@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">DKK</span>
+                            <span class="markets_name">Danimarka Kronu</span>
+                        </div>
+                        <div id="DKKTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="DKKTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                    <div class="col-sm country d-flex">
+                        <img src="img/group-4.png" srcset="img/group-4@2x.png 2x,
+                 img/group-4@3x.png 3x" class="Group-7 me-2">
+                        <div>
+                            <span class="markets_tag">NOK</span>
+                            <span class="markets_name">Norveç Kronu</span>
+                        </div>
+                        <div id="NOKTRYalıs">
+                            <span class="ALI">ALIŞ</span>
+                            <span class="price">6.8399</span>
+                        </div>
+                        <div id="NOKTRYsatıs">
+                            <span class="SATI">SATIŞ</span>
+                            <span class="price">6.8752</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row order-3 buttons">
+                <div class="col-sm">
+                    <button class="btn btn-primary first-button mt-4" type="button">Detaylı Bilgi</button>
+                </div>
+                <div class="col-sm">
+                    <button class="btn btn-primary second-button mt-4" type="button">Tüm Piyasalar</button>
+                </div>
+            </div>
+            <div class="converter order-2 flex-shrink-1">
+                <span class="Dviz-evir my-3">
+                    Döviz Çevir
+                </span>
+                <div class="d-flex px-5">
+                    <input class="input" type="number" id="price">
+                    <select id="selectSymbol" class="form-select" aria-label="Default select example">
+                        <option selected value="USD">USD</option>
+                        <option value="JPY">JPY</option>
+                        <option value="EUR">EUR</option>
+                        <option value="DKK">DKK</option>
+                        <option value="GBP">GBP</option>
+                        <option value="NOK">NOK</option>
+                    </select>
+                </div>
+                <img src="img/buttons-change.png" srcset="img/buttons-change@2x.png 2x,
+             img/buttons-change@3x.png 3x" class="ButtonsChange">
+                <div class="sonuc d-flex">
+                    <div class="cıktı flex-grow-1"></div>
+                    <div class="TL">
+                        TL
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let symbols = ["EUR", "USD", "JPY", "GBP", "DKK", "NOK"]
+        var currencies = {};
+
+        function fetchCurrencies() {
+            $.get("https://api.exchangerate.host/latest?symbols=" + symbols.join(",") + "&base=TRY", function (data) {
+                for (const s of symbols) {
+                    let curr = s + "TRY"
+                    currencies[curr] = 1 / data.rates[s]
+                    $('#' + curr + "alıs").children('.price').text(currencies[curr].toFixed(4))
+                    $('#' + curr + "satıs").children('.price').text(currencies[curr].toFixed(4))
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            fetchCurrencies()
+            $("#selectSymbol").on('change', function () {
+                let curr = $("#selectSymbol").val() + "TRY"
+                $(".cıktı").text(($("#price").val() * currencies[curr]).toFixed(4));
+            });
+
+            $("#price").keyup(function () {
+                let curr = $("#selectSymbol").val() + "TRY"
+                $(".cıktı").text(($(this).val() * currencies[curr]).toFixed(4));
+            });
+        })
+
+
+
+    </script>
+</body>
+
+</html>
