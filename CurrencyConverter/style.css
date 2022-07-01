@@ -1,30 +1,19 @@
 .converter{
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 280px;
   margin-top: 120px;
-  margin-right: 50px;
   background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%);
 }
 span{
   display: block;
 }
-img.Group-3 {
-  width: 45px;
-  height: 31px;
-  margin: 30px 13px 56px 0;
-  object-fit: contain;
-}
-img.Group-5 {
-  width: 43px;
-  height: 29px;
-  margin: 31px 14px 38px 1px;
-  object-fit: contain;
-}
 img.Group-7 {
-  width: 43px;
-  margin: 42.8px 0px 38.2px 1px;
-  height: 30px;
+  width: 20px;
   object-fit: contain;
+}
+.container{
+  margin: 0!important;
+  width: 1080px!important;
 }
 .markets_name {
   width: 86px;
@@ -105,7 +94,8 @@ img.Group-7 {
   white-space: nowrap;
 }
 button.second-button{
-  padding: 15px 177px 15px 176px;
+  margin-right: 380px;
+  padding: 15px 150px 15px 150px;
   background-color: #fff;
   color: #2b3b48;
   border: 2px solid #4f6477;
@@ -120,8 +110,8 @@ button.second-button:not([disabled]):not(.disabled):hover{
     border: 2px solid #4f6477;
 }
 button.first-button{
-  margin-left: 40px;
-  padding: 15px 185px 15px 185px;
+  margin-left: 60px;
+  padding: 15px 150px 15px 150px;
   background-color: #2b3b48;
   color: #fff;
   border: 2px solid #2b3b48;
@@ -159,20 +149,19 @@ button.first-button:not([disabled]):not(.disabled):hover{
 img.ButtonsChange {
   width: 48px;
   height: 48px;
-  margin: 40px 175px 40px 175px;
+  margin: 28px 125px 28px 125px;
   object-fit: contain;
 }
 .sonuc{
-  width: 300px;
-  height: 40px;
+  width: 225px;
   margin: auto;
-  padding: 15px 16px 35px 15px;
+  padding: 10px;
   background-color: #fff;
 }
 
 .TL {
+  padding-top: 2px;
   width: 20px;
-  height: 20px;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
@@ -185,15 +174,20 @@ img.ButtonsChange {
 }
 @media only screen and (max-device-width: 700px) {
   .container{
+    margin-left: 350px!important;
     padding: 30px 0 30px 0;
   }
+  .piyasalar{
+    width: 500px;
+  }
   .country{
-    margin: 25px 0 25px 0;
+    width: 400px;
   }
   .converter{
+    margin-left: 350px;
     min-width: 470px;
     height: 325px;
-    margin-top: 0px;
+    margin-top: 50px;
   }
   img.ButtonsChange{
     margin-left: 210px;
@@ -213,10 +207,11 @@ img.ButtonsChange {
     min-width: 100px!important;
   }
   button.btn{
+    margin-left: 350px;
     width: 470px;
     margin-top: 50px!important;
   }
   button.first-button{
-    margin-left: 0px;
+    margin-left: 350px;
   }
 }

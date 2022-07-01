@@ -15,10 +15,10 @@
 <body>
 
     <div class="main">
-        <div class="d-flex flex-wrap mx-5">
-            <div class="container order-1">
+        <div class="d-flex flex-wrap mx-1">
+            <div class="piyasalar container order-1">
                 <div class="row">
-                    <h4 class="Piyasalar mt-5">
+                    <h4 class="mt-5">
                         Piyasalar
                     </h4>
                 </div>
@@ -125,21 +125,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row order-3 buttons">
+            <div class="row buttons order-3">
                 <div class="col-sm">
-                    <button class="btn btn-primary first-button mt-4" type="button">Detaylı Bilgi</button>
+                    <button class="btn first-button mt-4" type="button">Detaylı Bilgi</button>
                 </div>
                 <div class="col-sm">
-                    <button class="btn btn-primary second-button mt-4" type="button">Tüm Piyasalar</button>
+                    <button class="btn second-button mt-4" type="button">Tüm Piyasalar</button>
                 </div>
             </div>
-            <div class="converter order-2 flex-shrink-1">
+            <div class="converter order-2">
                 <span class="Dviz-evir my-3">
                     Döviz Çevir
                 </span>
-                <div class="d-flex px-5">
-                    <input class="input" type="number" id="price">
-                    <select id="selectSymbol" class="form-select" aria-label="Default select example">
+                <div class="d-flex px-5 justify-content-center">
+                    <input class="input" type="number" id="price" maxlength="12">
+                    <select id="selectSymbol" class="form-select " aria-label="Default select example">
                         <option selected value="USD">USD</option>
                         <option value="JPY">JPY</option>
                         <option value="EUR">EUR</option>
