@@ -1,19 +1,29 @@
-.converter{
+.converter {
   width: 300px;
   height: 300px;
-  margin: 100px 0 0 10px;
+  margin: 100px 0 0 40px;
   background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%);
 }
-html.gecko.main-content{
-  margin-left: 50px;
-}
-.x{
-  width: 100px;
-}
-.main-content{
+.main-content {
   margin-left: 120px;
 }
-span{
+.ayrac {
+  width: 365px!important;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #bac9d5;
+}
+.ayrac2 {
+  width: 365px!important;
+  height: 1px;
+  margin-right: 78px;
+  opacity: 0.3;
+  background-color: #bac9d5;
+}
+.x {
+  width: 100px;
+}
+span {
   display: block;
 }
 img.Group-7 {
@@ -21,9 +31,9 @@ img.Group-7 {
   width: 40px;
   object-fit: contain;
 }
-.container{
-  margin: 0!important;
-  width: 900px!important;
+.container {
+  margin: 0 !important;
+  width: 900px !important;
 }
 .markets_name {
   width: 86px;
@@ -95,46 +105,40 @@ img.Group-7 {
   text-align: right;
   color: #4f6477;
 }
-.buttons{
-  
-}
-
-.btn{
-  border-radius: 0px!important;
+.btn {
+  border-radius: 0px !important;
   white-space: nowrap;
 }
-button.second-button{
-  margin:0 380px 0 65px;
+button.second-button {
+  margin: 0 380px 0 65px;
   padding: 10px 130px 10px 130px;
   background-color: #fff;
   color: #2b3b48;
   border: 2px solid #4f6477;
-
 }
 button.second-button:not([disabled]):not(.disabled).active,
 button.second-button:not([disabled]):not(.disabled):active,
 button.second-button:not([disabled]):not(.disabled).hover,
-button.second-button:not([disabled]):not(.disabled):hover{
-    color:#2b3b48;
-    background-color: #fff ;
-    border: 2px solid #4f6477;
+button.second-button:not([disabled]):not(.disabled):hover {
+  color: #2b3b48;
+  background-color: #fff;
+  border: 2px solid #4f6477;
 }
-button.first-button{
+button.first-button {
   margin-left: 10px;
   padding: 10px 136px 10px 136px;
   background-color: #2b3b48;
   color: #fff;
   border: 2px solid #2b3b48;
   font-family: Roboto;
-
 }
 button.first-button:not([disabled]):not(.disabled).active,
 button.first-button:not([disabled]):not(.disabled):active,
 button.fisrt-button:not([disabled]):not(.disabled).hover,
-button.first-button:not([disabled]):not(.disabled):hover{
-    color:#fff;
-    background-color: #2b3b48;
-    border: 2px solid #2b3b48;
+button.first-button:not([disabled]):not(.disabled):hover {
+  color: #fff;
+  background-color: #2b3b48;
+  border: 2px solid #2b3b48;
 }
 
 .Dviz-evir {
@@ -148,13 +152,13 @@ button.first-button:not([disabled]):not(.disabled):hover{
   text-align: center;
   color: #fff;
 }
-.input{
+.input {
   border: none;
   border-right: 0.5px solid #eaeef2;
 }
-.form-select{
-  border: none!important;
-  border-radius: 0px!important;
+.form-select {
+  border: none !important;
+  border-radius: 0px !important;
 }
 img.ButtonsChange {
   width: 48px;
@@ -162,9 +166,9 @@ img.ButtonsChange {
   margin: 28px 125px 28px 125px;
   object-fit: contain;
 }
-.sonuc{
-  width: 265px;
-  margin: auto;
+.sonuc {
+  margin-left: 15px;
+  width: 270px;
   padding: 10px;
   background-color: #fff;
 }
@@ -182,46 +186,46 @@ img.ButtonsChange {
   text-align: right;
   color: #2b3b48;
 }
-@media only screen and (max-device-width: 700px) {
-  .container{
-    margin-left: 350px!important;
-    padding: 30px 0 30px 0;
+@media only screen and (max-device-width: 400px) {
+  .main-content {
+    margin: 0;
   }
-  .piyasalar{
-    width: 500px;
+  .head{
+    padding-left: 75px!important;
   }
-  .country{
-    width: 400px;
+  .country {
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  .x {
+    margin: 40px 0 40px 0;
+  }
+  .phone-ayrac {
+    width: 780px;
+    margin: 0 80px 0 50px;
+    height: 1px;
+    opacity: 0.3;
+    background-color: #bac9d5;
   }
   .converter{
-    margin-left: 350px;
-    min-width: 470px;
-    height: 325px;
-    margin-top: 50px;
-  }
-  img.ButtonsChange{
-    margin-left: 210px;
-  }
-  .sonuc{
-    min-width: 375px;
-    height: 50px;
-  }
-  .input{
-    min-width: 250px;
-    height: 50px;
-  }
-  .TL{
-    margin: 0 0 0px 100px;
+    margin-top: 0;
+    min-width: 780px;
+    margin-left: 65px;
   }
   .form-select{
-    min-width: 100px!important;
+    width: 11%!important;
+  }
+  img.ButtonsChange{
+    margin: 28px 370px;
+  }
+  .sonuc{
+    width: 264px;
+    margin-left: 258px;
   }
   button.btn{
-    margin-left: 30px;
-    width: 470px;
-    margin-top: 50px!important;
-  }
-  button.first-button{
-    margin-left: 350px;
+    margin: 0;
+    width: 780px;
+    margin-left: 65px;
   }
 }
