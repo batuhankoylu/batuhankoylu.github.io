@@ -8,13 +8,13 @@
   margin-left: 120px;
 }
 .ayrac {
-  width: 365px!important;
+  width: 365px !important;
   height: 1px;
   opacity: 0.3;
   background-color: #bac9d5;
 }
 .ayrac2 {
-  width: 365px!important;
+  width: 365px !important;
   height: 1px;
   margin-right: 78px;
   opacity: 0.3;
@@ -186,12 +186,15 @@ img.ButtonsChange {
   text-align: right;
   color: #2b3b48;
 }
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 575px) {
+  .main{
+    margin-top: 100px;
+  }
   .main-content {
     margin: 0;
   }
-  .head{
-    padding-left: 75px!important;
+  .head {
+    padding-left: 75px !important;
   }
   .country {
     justify-content: space-around;
@@ -208,24 +211,29 @@ img.ButtonsChange {
     opacity: 0.3;
     background-color: #bac9d5;
   }
-  .converter{
+  .converter {
     margin-top: 0;
     min-width: 780px;
     margin-left: 65px;
   }
-  .form-select{
-    width: 11%!important;
+  .form-select {
+    width: 11% !important;
   }
-  img.ButtonsChange{
+  img.ButtonsChange {
     margin: 28px 370px;
   }
-  .sonuc{
+  .sonuc {
     width: 264px;
     margin-left: 258px;
   }
-  button.btn{
-    margin: 0;
+  button.first-button{
+    margin-bottom: 20px;
+  }
+  button.second-button{
+    margin-bottom: 20px;
+  }
+  button.btn {
+    margin: 0 0 0 65px;
     width: 780px;
-    margin-left: 65px;
   }
 }
