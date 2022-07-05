@@ -391,4 +391,12 @@ button.first-button:not([disabled]):not(.disabled):hover {
   .input{
     min-width: 70%;
   }
+  .input {
+    border: none;
+    border-right: 0.5px solid #eaeef2;
+  }
+  .form-select {
+    border: none !important;
+    border-radius: 0px !important;
+  }
 }
