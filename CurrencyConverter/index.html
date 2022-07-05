@@ -11,177 +11,262 @@
     <script src="css_browser_selector.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
 
     <div class="main">
-        <div class="d-flex flex-wrap main-content">
-            <div class="piyasalar container order-1">
-                <div class="row">
-                    <h4 class="head mt-4">
-                        Piyasalar
-                    </h4>
-                </div>
-                <div class="row">
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-7.png" srcset="img/group-7@2x.png 2x,
-             img/group-7@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">USD</span>
-                            <span class="markets_name">Amerikan Doları</span>
+        <div class="container">
+            <div class="row px-2">
+                <span class="piyasalar-header">Piyasalar</span>
+                <div class="col-xl-8">
+                    <div class="d-flex flex-wrap ">
+                        <div class="col-sm col-xl-6">
+                            <div class="d-flex piyasa col-xl-3">
+                                <img src="img/group-7.png" srcset="img/group-7@2x.png 2x,
+             img/group-7@3x.png 3x" class="Group-7">
+                                <div class="flex-column pad">
+                                    <div class="USD Text-Style">
+                                        USD
+                                    </div>
+                                    <div class="Amerikan-Dolar">
+                                        Amerikan Doları
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="USDTRYALIS" class="spanalı price">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="USDTRYSATIS" class="spansatı price">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="x" id="USDTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="USDTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
-                        </div>
-                    </div>
-                    <div class="col-sm d-block d-sm-none">
-                        <span class="phone-ayrac"></span>
-                    </div>
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-1.png" srcset="img/group-1@2x.png 2x,
+                        <div class="Rectangle d-xl-none"></div>
+                        <div class="col-sm distance">
+                            <div class="d-flex piyasa col-xl-3">
+                                <img src="img/group-1.png" srcset="img/group-1@2x.png 2x,
              img/group-1@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">EUR</span>
-                            <span class="markets_name">Avrupa Para Birimi</span>
-                        </div>
-                        <div class="x" id="EURTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="EURTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
+                                <div class="flex-column pad">
+                                    <div class="EUR Text-Style">
+                                        EUR
+                                    </div>
+                                    <div class="Avrupa-Para-Birimi">
+                                        Avrupa Para Birimi
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="EURTRYALIS" class="spanalı">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="EURTRYSATIS" class="spansatı">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm d-block d-sm-none">
-                        <span class="phone-ayrac"></span>
+                    <div class="d-flex justify-content-between">
+                        <div class="Rectangle2"></div>
+                        <div class="Rectangle2"></div>
                     </div>
-                </div>
-                <div class="row px-1 justify-content-between d-none d-xl-flex">
-                    <span class="ayrac"></span>
-                    <span class="ayrac2"></span>
-                </div>
-                <div class="row">
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-5.png" srcset="img/group-5@2x.png 2x,
+                    <div class="Rectangle d-xl-none"></div>
+                    <div class="d-flex flex-wrap ">
+                        <div class="col-sm col-xl-6">
+                            <div class="d-flex piyasa">
+                                <img src="img/group-5.png" srcset="img/group-5@2x.png 2x,
                  img/group-5@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">JPY</span>
-                            <span class="markets_name">Japon Yeni</span>
+                                <div class="flex-column pad">
+                                    <div class="JPY Text-Style">
+                                        JPY
+                                    </div>
+                                    <div class="Japon-Yeni">
+                                        Japon Yeni
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="JPYTRYALIS" class="spanalı price">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="JPYTRYSATIS" class="spansatı price">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="x" id="JPYTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="JPYTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
-                        </div>
-                    </div>
-                    <div class="col-sm d-block d-sm-none">
-                        <span class="phone-ayrac"></span>
-                    </div>
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-2.png" srcset="img/group-2@2x.png 2x,
+                        <div class="Rectangle d-xl-none"></div>
+                        <div class="col-sm col-xl-6 distance">
+                            <div class="d-flex piyasa">
+                                <img src="img/group-2.png" srcset="img/group-2@2x.png 2x,
                  img/group-2@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">GBP</span>
-                            <span class="markets_name">İngiliz Sterlini</span>
-                        </div>
-                        <div class="x" id="GBPTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="GBPTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
+                                <div class="flex-column pad">
+                                    <div class="GBP Text-Style">
+                                        GBP
+                                    </div>
+                                    <div class="ngiliz-Sterlini">
+                                        İngiliz Sterlini
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="GBPTRYALIS" class="spanalı price">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="GBPTRYSATIS" class="spansatı price">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm d-block d-sm-none">
-                        <span class="phone-ayrac"></span>
+                    <div class="d-flex justify-content-between">
+                        <div class="Rectangle2"></div>
+                        <div class="Rectangle2"></div>
                     </div>
-                </div>
-                <div class="row px-1 justify-content-between d-none d-sm-flex">
-                    <div class="ayrac"></div>
-                    <div class="ayrac2"></div>
-                </div>
-                <div class="row">
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-3.png" srcset="img/group-3@2x.png 2x,
+                    <div class="Rectangle d-xl-none"></div>
+                    <div class="d-flex flex-wrap ">
+                        <div class="col-sm col-xl-6">
+                            <div class="d-flex piyasa">
+                                <img src="img/group-3.png" srcset="img/group-3@2x.png 2x,
                  img/group-3@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">DKK</span>
-                            <span class="markets_name">Danimarka Kronu</span>
+                                <div class="flex-column pad">
+                                    <div class="DKK Text-Style">
+                                        DKK
+                                    </div>
+                                    <div class="Danimarka-Kronu">
+                                        Danimarka Kronu
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="DKKTRYALIS" class="spanalı price">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="DKKTRYSATIS" class="spansatı price">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="x" id="DKKTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="DKKTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
-                        </div>
-                    </div>
-                    <div class="col-sm d-block d-sm-none">
-                        <span class="phone-ayrac"></span>
-                    </div>
-                    <div class="col-sm country d-flex">
-                        <img src="img/group-4.png" srcset="img/group-4@2x.png 2x,
+                        <div class="Rectangle d-xl-none"></div>
+                        <div class="col-sm col-xl-6 distance">
+                            <div class="d-flex piyasa">
+                                <img src="img/group-4.png" srcset="img/group-4@2x.png 2x,
                  img/group-4@3x.png 3x" class="Group-7 me-2">
-                        <div class="x">
-                            <span class="markets_tag">NOK</span>
-                            <span class="markets_name">Norveç Kronu</span>
-                        </div>
-                        <div class="x" id="NOKTRYalıs">
-                            <span class="ALI">ALIŞ</span>
-                            <span class="price">6.8399</span>
-                        </div>
-                        <div class="x" id="NOKTRYsatıs">
-                            <span class="SATI">SATIŞ</span>
-                            <span class="price">6.8752</span>
+                                <div class="flex-column pad">
+                                    <div class="NOK Text-Style">
+                                        NOK
+                                    </div>
+                                    <div class="Norve-Kronu">
+                                        Norveç Kronu
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="ALI">
+                                        ALIŞ
+                                    </div>
+                                    <div id="NOKTRYALIS" class="spanalı price">
+                                        6.8399
+                                    </div>
+                                </div>
+                                <div class="flex-column pad">
+                                    <div class="SATI">
+                                        SATIŞ
+                                    </div>
+                                    <div id="NOKTRYSATIS" class="spansatı price">
+                                        6.8752
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row buttons order-3">
-                <div class="col-sm">
-                    <button class="btn first-button mt-4" type="button">Detaylı Bilgi</button>
+                <div class="col-xl-4">
+                    <div class="converter">
+                        <span class="Dviz-evir">
+                            Döviz Çevir
+                        </span>
+                        <div class="d-flex justify-content-center">
+                            <input class="input" type="text" id="price" onkeyup="this.value = addCommas(this.value)"
+                                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                            <select id="selectSymbol" class="form-select" aria-label="Default select example">
+                                <option selected value="USD">USD</option>
+                                <option value="JPY">JPY</option>
+                                <option value="EUR">EUR</option>
+                                <option value="DKK">DKK</option>
+                                <option value="GBP">GBP</option>
+                                <option value="NOK">NOK</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="img/buttons-change.png" srcset="img/buttons-change@2x.png 2x,
+                     img/buttons-change@3x.png 3x" class="ButtonsChange">
+                        </div>
+                        <div class="sonuc d-flex">
+                            <div class="cıktı flex-grow-1"></div>
+                            <div class="TL">
+                                TL
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm">
-                    <button class="btn second-button mt-4" type="button">Tüm Piyasalar</button>
-                </div>
-            </div>
-            <div class="converter order-2">
-                <span class="Dviz-evir my-3">
-                    Döviz Çevir
-                </span>
-                <div class="d-flex px-3 justify-content-center">
-                    <input class="input" type="text" id="price" maxlength="12">
-                    <select id="selectSymbol" class="form-select " aria-label="Default select example">
-                        <option selected value="USD">USD</option>
-                        <option value="JPY">JPY</option>
-                        <option value="EUR">EUR</option>
-                        <option value="DKK">DKK</option>
-                        <option value="GBP">GBP</option>
-                        <option value="NOK">NOK</option>
-                    </select>
-                </div>
-                <img src="img/buttons-change.png" srcset="img/buttons-change@2x.png 2x,
-             img/buttons-change@3x.png 3x" class="ButtonsChange">
-                <div class="sonuc d-flex">
-                    <div class="cıktı flex-grow-1"></div>
-                    <div class="TL">
-                        TL
+                <div class="col-xl-6 buttons">
+                    <div class="col-sm btns">
+                        <button class="btn first-button" type="button">Detaylı Bilgi</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class="btn second-button" type="button">Tüm Piyasalar</button>
                     </div>
                 </div>
             </div>
+
         </div>
+    </div>
     </div>
 
 
@@ -189,13 +274,25 @@
         let symbols = ["EUR", "USD", "JPY", "GBP", "DKK", "NOK"]
         var currencies = {};
 
+        function addCommas(nStr) {
+            nStr += '';
+            x = nStr.split('.');
+            x1 = x[0];
+            x2 = x.length > 1 ? '.' + x[1] : '';
+            var rgx = /(\d+)(\d{3})/;
+            while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+            return x1 + x2;
+        }
+
         function fetchCurrencies() {
             $.get("https://api.exchangerate.host/latest?symbols=" + symbols.join(",") + "&base=TRY", function (data) {
                 for (const s of symbols) {
                     let curr = s + "TRY"
                     currencies[curr] = 1 / data.rates[s]
-                    $('#' + curr + "alıs").children('.price').text(currencies[curr].toFixed(4))
-                    $('#' + curr + "satıs").children('.price').text(currencies[curr].toFixed(4))
+                    $('#' + curr + "ALIS").text(currencies[curr].toFixed(4))
+                    $('#' + curr + "SATIS").text(currencies[curr].toFixed(4))
                 }
             });
         }
@@ -209,7 +306,7 @@
 
             $("#price").keyup(function () {
                 let curr = $("#selectSymbol").val() + "TRY"
-                $(".cıktı").text(($(this).val() * currencies[curr]).toFixed(4));
+                $(".cıktı").text(($(this).val().replace(",", "") * currencies[curr]).toFixed(4));
             });
         })
 
