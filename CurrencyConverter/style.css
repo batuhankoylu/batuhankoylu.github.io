@@ -2,8 +2,6 @@ body {
   font-family: 'Roboto', sans-serif!important;
 }
 .piyasalar-header {
-  width: 87px;
-  height: 54px;
   margin: 0 258px 16px 3px;
   font-size: 22px;
   font-weight: 500;
@@ -14,15 +12,15 @@ body {
   color: #2b3b48;
 }
 img.Group-7 {
-  width: 43px;
+  width: 35px;
   height: 30px;
-  margin: 1px 14px 55px 0;
+  margin: 1px 0 55px 0;
   object-fit: contain;
 }
 .USD {
-  width: 31px;
+  width: 20px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 0 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -47,7 +45,7 @@ img.Group-7 {
 .ALI {
   width: 26px;
   height: 14px;
-  margin: 0 41px 6px 56px;
+  margin: 0 41px 6px 65px;
   font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
@@ -60,7 +58,7 @@ img.Group-7 {
 .spanalı {
   width: 50px;
   height: 24px;
-  margin: 6px 41px 21px 32px;
+  margin: 6px 41px 21px 40px;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -73,7 +71,7 @@ img.Group-7 {
 .SATI {
   width: 33px;
   height: 14px;
-  margin: 0 2px 6px 64px;
+  margin: 0 2px 6px 63px;
   font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
@@ -102,19 +100,16 @@ img.Group-7 {
   margin: -20px 0 20px 0;
   background-color: #e6ecf0;
 }
-.pad {
-  padding: 0 12px 0 12px;
-}
 img.Group-3 {
-  width: 43px;
+  width: 35px;
   height: 30px;
   margin: 1px 14px 55px 0;
   object-fit: contain;
 }
 .EUR {
-  width: 31px;
+  width: 20px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 0 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -126,7 +121,7 @@ img.Group-3 {
 .Avrupa-Para-Birimi {
   width: 86px;
   height: 24px;
-  margin: 1px 15px 41px 12px;
+  margin: 1px 10px 41px 12px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -143,9 +138,9 @@ img.Group-5 {
   object-fit: contain;
 }
 .JPY {
-  width: 31px;
+  width: 20px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 0 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -155,9 +150,9 @@ img.Group-5 {
   color: #2b3b48;
 }
 .Japon-Yeni {
-  width: 86px;
+  width: 80px;
   height: 24px;
-  margin: 1px 15px 41px 12px;
+  margin: 1px 10px 41px 12px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -165,6 +160,7 @@ img.Group-5 {
   line-height: 2;
   letter-spacing: normal;
   color: #2b3b48;
+  white-space: nowrap;
 }
 img.Group-3 {
   width: 43px;
@@ -173,9 +169,9 @@ img.Group-3 {
   object-fit: contain;
 }
 .GBP {
-  width: 31px;
+  width: 80px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 10px 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -185,7 +181,7 @@ img.Group-3 {
   color: #2b3b48;
 }
 .ngiliz-Sterlini {
-  width: 86px;
+  width: 35px;
   height: 24px;
   margin: 1px 15px 41px 12px;
   font-size: 12px;
@@ -195,11 +191,12 @@ img.Group-3 {
   line-height: 2;
   letter-spacing: normal;
   color: #2b3b48;
+  white-space: nowrap;
 }
 .DKK {
   width: 31px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 10px 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -209,9 +206,9 @@ img.Group-3 {
   color: #2b3b48;
 }
 .Danimarka-Kronu {
-  width: 86px;
+  width: 80px;
   height: 24px;
-  margin: 1px 15px 41px 12px;
+  margin: 1px 10px 41px 12px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -224,7 +221,7 @@ img.Group-3 {
 .NOK {
   width: 31px;
   height: 20px;
-  margin: 0 69px 1px 13px;
+  margin: 0 10px 1px 13px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -234,9 +231,9 @@ img.Group-3 {
   color: #2b3b48;
 }
 .Norve-Kronu {
-  width: 86px;
+  width: 80px;
   height: 24px;
-  margin: 1px 15px 41px 12px;
+  margin: 1px 10px 41px 12px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -369,5 +366,29 @@ button.first-button:not([disabled]):not(.disabled):hover {
   }
   .distance {
     padding-left: 30px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .spansatı{
+    margin-top: 3px;
+    margin-left: 23px;
+  }
+  .spanalı{
+    margin-top: 7px;
+    margin-left: 40px;
+  }
+  .SATI{
+    margin-left: 40px;
+  }
+  img.Group-7{
+    margin: 0px;
+  }
+  .ALI{
+    margin-right: 0px;
+  }
+  .input{
+    min-width: 70%;
   }
 }
